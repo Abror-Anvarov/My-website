@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   Navbar   */
+
+.navbar {
+    border-top: 4px solid crimson;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    height: 100px;
+}
+
+.navbar a {
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 30px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: silver;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .logo-icon {
+    color: blue;
+    font-size: 38px;
+}
+
+iframe {
+    border: none;
+    padding-left: 30px;
+}
+
+.icons {
+    font-size: 22px;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.icons i {
+    padding: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(red,blue,gray);
+    border-radius: 50%;
+}
+
+nav .nav-button {
+    height: 40px;
+    width: 150px;
+    font-size: 24px;
+    color: black;
+    background-image: linear-gradient(red,blue,gray);
+    text-align: center;
+    margin-top: 32px;
+    border-radius: 25px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+
+.header {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+header h1 {
+    padding-top: 10px;
+    text-shadow: 0 0 3px #e4d01c, 0 0 5px #0d90b1;
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+
+.boxs {
+    height: 180px;
+    width: 85%;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin: 20px auto;
+}
+
+.box-1 h2 {
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.box-2 {
+    display: flex;
+    width: 100%;
+}
+
+.box-2 p {
+    padding: 15px;
+    font-size: 20px;
+    float: right;
+    width: 75%;
+}
+
+.box-2 img {
+    float: left;
+    width: 25%;
+    position: relative;
+    margin-left: 50px;
+}
+
+
+/*   Footer    */
+
+footer {
+    height: 5vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(13, 41, 119),rgb(23, 161, 185),gray);
+    text-align: center;
+    color: silver;
+    padding: 8px;
+}
