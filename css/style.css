@@ -48,7 +48,7 @@ iframe {
     border-radius: 50%;
 }
 
-nav .nav-button {
+nav #google_translate_element {
     height: 40px;
     width: 150px;
     font-size: 24px;
