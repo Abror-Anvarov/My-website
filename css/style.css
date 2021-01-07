@@ -37,12 +37,10 @@ iframe {
 
 .icons {
     font-size: 22px;
-    padding: 30px;
-    padding-left: 100px;
+    display: flex;
 }
 
 .icons i {
-    padding: 10px;
     cursor: pointer;
     background-image: linear-gradient(red,blue,gray);
     border-radius: 50%;
