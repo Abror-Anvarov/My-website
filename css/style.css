@@ -139,6 +139,7 @@ header h1 {
 
 .box-2 img {
     float: left;
+    margin-bottom: 20px;
     width: 200px;
     position: relative;
     margin-left: 50px;
