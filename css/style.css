@@ -25,9 +25,13 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.navbar a i{
+    font-size: 28px;
+}
+
 .navbar .logo-icon {
     color: blue;
-    font-size: 38px;
+    font-size: 30px;
 }
 
 iframe {
@@ -36,7 +40,6 @@ iframe {
 }
 
 .icons {
-    font-size: 22px;
     display: flex;
 }
 
@@ -44,6 +47,10 @@ iframe {
     cursor: pointer;
     background-image: linear-gradient(red,blue,gray);
     border-radius: 50%;
+}
+
+.logo-icon {
+    font-size: 15px;
 }
 
 #google_translate_element {
