@@ -48,19 +48,11 @@ iframe {
     border-radius: 50%;
 }
 
-nav #google_translate_element {
-    height: 40px;
-    width: 150px;
-    font-size: 24px;
-    color: black;
-    background-image: linear-gradient(red,blue,gray);
-    text-align: center;
-    margin-top: 32px;
-    border-radius: 25px;
-    margin-left: 90px;
+#google_translate_element {
+    padding: 38px;
+    margin-left: 30px;
     cursor: pointer;
 }
-
 
 .header {
     height: 80vh;
