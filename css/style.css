@@ -228,4 +228,10 @@ footer {
         font-size: 14px;
     }
 
+    footer h4 {
+        text-align: center;
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
 }
