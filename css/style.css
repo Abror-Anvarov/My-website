@@ -67,10 +67,12 @@ iframe {
 }
 
 .reklama {
-    width: 35%;
+    height: 90vh;
+    width: 37%;
     display: flex;
     flex-direction: column;
     float: right;
+    overflow-y: scroll;
 }
 
 .re-menu {
@@ -93,7 +95,7 @@ iframe {
 
 .header {
     height: 90vh;
-    width: 65%;
+    width: 63%;
     display: flex;
     flex-direction: column;
     overflow-x: scroll;
