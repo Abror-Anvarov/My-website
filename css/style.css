@@ -352,15 +352,15 @@ footer {
         text-align: center;
     }
     .navbar a {
-        margin-right: 10px;
+        margin: 1px auto;
     }
 
     iframe {
-        margin-right: 55px;
+        margin: 1px auto;
     }
 
     #google_translate_element {
-        margin-right: 50px;
+        margin: 1px auto;
     }
 
     .nav-list {
