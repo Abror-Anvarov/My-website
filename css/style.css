@@ -77,7 +77,8 @@ a{
 .nav-list {
 	display: flex;
 	align-items: center;
-    padding-left: 300px;	
+    padding-left: 300px;
+    border-bottom: 1px solid black;	
 }
 
 .nav-item:not(:last-child){
@@ -348,7 +349,7 @@ footer {
   /*     Header-2   */
 
   .test-box {
-      width: 50%;
+      width: 65%;
       height: 440px;
       transition: width 2s;
       display: flex;
@@ -367,6 +368,7 @@ footer {
       width:100px;
       padding: 40px;
       position: absolute;
+      text-align: center;
   }
 
   .b-box:hover {
@@ -374,10 +376,32 @@ footer {
     height:300px;
   }
 
+  .im {
+      width: 70%;
+      padding: 5px;
+      margin: 10px auto;
+      border-radius: 50%;
+  }
+
+  .fa-icon {
+      color: black;
+      text-align: center;
+      font-size: 38px;
+  }
+
+  .para {
+      color: #444444;
+      font-size: 20px;
+      padding: 15px;
+  }
+
   .a-box {
       height: 380px;
       width: 27%;
       margin: 1px auto;
+      display: flex;
+      flex-direction: column;
+      background: rgb(93, 222, 231);
       border-radius: 5px;
       box-shadow: 10px 10px 8px #aaaaaa;
       cursor: pointer;
