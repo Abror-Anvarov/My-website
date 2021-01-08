@@ -166,15 +166,6 @@ a{
     overflow-x: scroll;
 }
 
-header h1 {
-    padding-top: 10px;
-    text-shadow: 0 0 3px #e4d01c, 0 0 5px #0d90b1;
-    text-align: center;
-    border-bottom: 2px solid blue;
-    background-image: linear-gradient(rgb(148, 133, 133),rgb(138, 231, 192),gray);
-
-}
-
 .header h2 {
     padding-top: 5px;
     text-align: center;
@@ -467,6 +458,10 @@ footer {
 
   /*     Header-2   */
 
+  #hed {
+    background-image: url(".././img/yigitlar uchun/t16.gif");
+  }
+
   .test-box {
       width: 65%;
       height: 440px;
@@ -474,7 +469,7 @@ footer {
       display: flex;
       flex-direction: row;
       margin: 20px auto;
-      background: #c7c7c7;
+      background-image: url(".././img/yigitlar uchun/t16.gif");
       justify-content: center;
       align-items: center;
   }
@@ -508,8 +503,7 @@ footer {
       margin: 1px auto;
       display: flex;
       flex-direction: column;
-      background: rgb(93, 222, 231);
-      border: 1px solid black;
+      background: rgb(168, 163, 163);
       border-radius: 5px;
       box-shadow: 10px 10px 8px #aaaaaa;
       cursor: pointer;
@@ -533,4 +527,37 @@ footer {
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+  section {
+    scroll-behavior: smooth;
+  }
+
+  #section1,
+  #section2,
+  #section3 {
+      height: 700px;
+      width: 100%;
+      background: rgb(157, 161, 153);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .img-h {
+      color: black;
+      padding: 10px;
+  }
+
+  .boxs-img {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .im-img img {
+      height: 200px;
+      width: 200px;
+      cursor: pointer;
   }
