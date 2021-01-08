@@ -181,7 +181,7 @@ header h1 {
 }
 
 .boxs {
-    height: 180px;
+    height: 280px;
     width: 85%;
     border: 1px solid gray;
     border-radius: 2px;
@@ -203,7 +203,7 @@ header h1 {
 
 .box-2 p {
     padding: 15px;
-    font-size: 15px;
+    font-size: 17px;
     float: right;
     width: 75%;
 }
@@ -270,12 +270,8 @@ footer {
         width: 100%;
     }
 
-    .header .boxs {
-        height: 180px;
-        margin-left: 50px;
-    }
-
     .box-1 {
+        height: 400px;
         width: 100%;
     }
 
