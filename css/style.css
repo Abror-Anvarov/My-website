@@ -250,33 +250,20 @@ footer {
     }
 
     .nav-list {
-        height: 350px;
-        width: 100%;
-    }
-
-    .nav-list ul {
+        height: 510px;
         display: flex;
         flex-direction: column;
-    }
-
-    .nav-list ul li {
-        margin-top: 12px;
-        margin-right: 100px;
-        align-items: center;
-        justify-content: center;
         text-align: center;
-        color: white;
-
+        margin-right: 250px;
     }
 
-    .nav-list ul a li {
-        font-size: 20px;
+    .nav-link:hover {
+        color: red;
     }
 
     .head {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     .header {
@@ -285,7 +272,7 @@ footer {
 
     .header .boxs {
         height: 180px;
-        margin-left: 1px;
+        margin-left: 50px;
     }
 
     .box-1 {
@@ -312,6 +299,7 @@ footer {
 
     .reklama {
         width: 100%;
+        overflow: hidden;
     }
 
     .reklama h3 {
@@ -330,8 +318,27 @@ footer {
         padding-bottom: 10px;
     }
 
+    /* rasm.html  */
+
+    header .test-box {
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .a-box {
+        height: 90vh;
+        width: 50%;
+        margin: 10px auto; 
+    }
+
+
 }
 
+
+
+/*    media  x   */
 
 
 
@@ -364,18 +371,6 @@ footer {
       width: 80%;
   }
 
-  .b-box {
-      width:100px;
-      padding: 40px;
-      position: absolute;
-      text-align: center;
-  }
-
-  .b-box:hover {
-    width:200px;
-    height:300px;
-  }
-
   .im {
       width: 70%;
       padding: 5px;
@@ -402,6 +397,7 @@ footer {
       display: flex;
       flex-direction: column;
       background: rgb(93, 222, 231);
+      border: 1px solid black;
       border-radius: 5px;
       box-shadow: 10px 10px 8px #aaaaaa;
       cursor: pointer;
