@@ -339,7 +339,122 @@ footer {
 
 
 /*    media  x   */
+ /* media 400px  */
 
+ @media only screen and (max-width: 400px){
+    .navbar {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .navbar a {
+        margin-right: 10px;
+    }
+
+    iframe {
+        margin-right: 55px;
+    }
+
+    #google_translate_element {
+        margin-right: 50px;
+    }
+
+    .nav-list {
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-link {
+        margin-right: 200px;
+    }
+
+    .re-m {
+        margin-right: 200px;
+    }
+
+    .nav-link:hover {
+        color: red;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header .boxs {
+        height: 280px;
+        margin-left: 50px;
+    }
+
+    .box-1 {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 20px;
+        padding-right: 35px;
+    }
+
+    .header h2 {
+        font-size: 15px;
+    }
+
+    .header p {
+        font-size: 10px;
+    }
+
+    .header img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .reklama {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .reklama h3 {
+        font-size: 18px;
+    }
+
+    .reklama p {
+        padding-right: 30px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    footer h4 {
+        text-align: center;
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
+    /* rasm.html  */
+
+    header .test-box {
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .a-box {
+        height: 90vh;
+        width: 50%;
+        margin: 10px auto; 
+    }
+
+
+}
 
 
 
