@@ -345,6 +345,7 @@ footer {
     .navbar {
         height: 450px;
         display: flex;
+        margin: 1px auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -392,7 +393,7 @@ footer {
 
     .header .boxs {
         height: 280px;
-        margin-left: 50px;
+        margin: 5px auto;
     }
 
     .box-1 {
