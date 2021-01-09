@@ -486,15 +486,27 @@ footer {
   .test-box a {
       display: flex;
       margin-left: 20px;
+      margin-right: 10px;
       margin-top: 30px;
       font-size: 12px;
       font-family: sans-serif;
+      border: 1px solid white;
+      padding: 10px;
+  }
+
+  .test-box a:hover {
+      background: tomato;
+      color: thistle;
   }
 
 .test-box i {
     color: white;
     font-size: 25px;
     margin-right: 10px;
+}
+
+.test-box i:hover{
+    color: black;
 }
 
   .im {
@@ -547,4 +559,6 @@ footer {
       height: 200px;
       width: 200px;
       cursor: pointer;
+      position: relative;
+      box-sizing: border-box;
   }
